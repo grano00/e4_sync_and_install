@@ -1,0 +1,12 @@
+function [messagemap] = get_message_map()
+%GET_MESSAGE_MAP Summary of this function goes here
+%   Detailed explanation goes here
+
+messagemap = struct();
+
+messagemap.list = 'device_list';
+messagemap.discover = 'device_discover_list';
+
+
+end
+
